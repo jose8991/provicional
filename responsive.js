@@ -1,4 +1,5 @@
 {
+    console.log("entro al responsive.js")
     let head = document.head || document.getElementsByTagName('head')[0]
 
     let style_responsive = document.createElement("style")
