@@ -1,5 +1,5 @@
 {
-    console.log("entro al responsive.js")
+    console.log("entro a responsi.js")
     let head = document.head || document.getElementsByTagName('head')[0]
 
     let style_responsive = document.createElement("style")
@@ -46,6 +46,7 @@
 
     document.querySelectorAll('*').forEach(function (node) {
         let clases = Array.from(node.classList)
+        console.log(clases)
         for (const clase of clases) {
             if (clase.match(/.+_.+-less-\d+px/ig)) {
                 let elm0 = clase.split("-less-")
